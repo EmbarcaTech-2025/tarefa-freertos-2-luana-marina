@@ -1,4 +1,4 @@
-# Tarefa: Roteiro de FreeRTOS #1 - EmbarcaTech 2025
+# Tarefa: Roteiro de FreeRTOS #2 - EmbarcaTech 2025
 
 Autor: **Luana Varela Vacari e Marina Donaire**
 
