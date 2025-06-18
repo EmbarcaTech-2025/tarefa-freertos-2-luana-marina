@@ -53,13 +53,27 @@ Objetivo: Controlar o fluxo do teste de tempo de reação.
 
 **Funções:**
 
-Aguardar um tempo aleatório.
+Aguardar um tempo aleatório, ou seja ocioso 
 
 Acionar o LED RGB como estímulo.
 
 Medir o tempo até o botão ser pressionado.
 
 Mostrar o tempo de reação no display.
+
+**Partes do Código e suas Funções**
+
+Quando o sistema fica em repouso : 
+
+![image](https://github.com/user-attachments/assets/f5b8a212-2076-4824-9ea2-dc2c6bdd86c5)
+
+Quando há atraso aleatório antes do estímulo: 
+
+![image](https://github.com/user-attachments/assets/954c6c0e-6ea8-4335-845e-567795fff931)
+
+Quando o tempo de reação é calculado e exibido no display OLED : 
+
+![image](https://github.com/user-attachments/assets/a9e0b97f-7272-488c-9893-5631f85c9054)
 
   **buttons_task**
 
@@ -70,6 +84,9 @@ Objetivo: Monitorar os botões físicos e enviar eventos para a fila.
 Detectar pressionamento.
 
 Enviar evento de botão pressionado para a fila compartilhada.
+
+![image](https://github.com/user-attachments/assets/81c0bcff-547d-4048-b773-2d4aef2ce10e)
+
 
 
 **Fluxograma de Funcionamento**
