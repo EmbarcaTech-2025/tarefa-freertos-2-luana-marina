@@ -113,6 +113,9 @@ Além das tarefas, o projeto é dividido em módulos auxiliares que encapsulam f
 
     O módulo oled gerencia a comunicação com o display OLED via protocolo I2C, exibindo mensagens e o tempo medido.
 
+**Vídeo do Funcionamento**
+
+https://youtu.be/EgwElFbXqLk?si=Jx481LBbl1inCh4c 
 
 ## 📜 Licença
 GNU GPL-3.0.
